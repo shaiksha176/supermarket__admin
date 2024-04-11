@@ -1,0 +1,35 @@
+.sidebar__container {
+  width: 250px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar_logo img {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.menu__list {
+  margin: 20px 10px 0 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: orangered;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.menu span {
+  font-size: 16px;
+  padding-left: 10px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.menu .icon {
+  font-size: 20px;
+  color: white;
+}

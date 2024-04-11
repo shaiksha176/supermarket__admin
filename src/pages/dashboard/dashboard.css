@@ -1,0 +1,48 @@
+.dashboard__container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+}
+
+.content .outlet {
+  width: 90%;
+  margin: 20px auto;
+  /* border: 2px solid red; */
+}
+
+.outlet form {
+  width: 60%;
+  margin: 30px auto;
+  border: 1px solid orangered;
+  padding: 30px;
+}
+
+.outlet form h3 {
+  margin-bottom: 20px;
+}
+
+.outlet form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.outlet form input {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid gainsboro;
+  margin-bottom: 10px;
+}
+
+.outlet form button {
+  background-color: orangered;
+  padding: 8px 16px;
+  border: none;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px;
+}
